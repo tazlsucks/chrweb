@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
 body, html{
 background-color: rgba(24,24,25,255);
 color: white;
 font-family: 'Oswald','Courier New', Courier, monospace;
 }
-
 .container {
     text-align: center;
   }
-
+  .social-container {
+    text-align: center;
+  }
 h1{
     font-size: 55px;
 }
 p{
     font-size: 40px;
 }
-
 .social {
     color:#fff;
     font-size: 35px;
@@ -24,8 +23,76 @@ p{
     transition:0.4s ease-in-out;
     margin:0px 8px;
     text-align:center;
+    padding: 10px;
+}
+.social2 {
+    color:#fff;
+    font-size: 35px;
+    border-radius:50%;
+    transition:0.4s ease-in-out;
+    margin:0px 8px;
+    text-align:center;
+    padding: 10px;
+}
+.social3 {
+    color:#fff;
+    font-size: 35px;
+    border-radius:50%;
+    transition:0.4s ease-in-out;
+    margin:0px 8px;
+    text-align:center;
+    padding: 10px;
 }
 .social:hover { 
     cursor: pointer;
     color:rgb(255, 50, 50);
 }
+.social2:hover { 
+    cursor: pointer;
+    color:rgb(50, 224, 255);
+}
+.social3:hover { 
+    cursor: pointer;
+    color:rgba(236, 23, 147, 0.842);
+}
+.button-container {
+    text-align: center;
+    padding: 50px;
+  }
+  .button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Oswald','Courier New', Courier, monospace;
+    transition:0.1s ease-in-out;
+  }
+  .button:hover {
+    background-color: rgb(15, 14, 14);
+  }
+  a{
+    text-decoration: none;
+  }
+  a:link {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: gray;
+  }
+  a:active {
+    color: gray;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    padding:10px;
+  }
