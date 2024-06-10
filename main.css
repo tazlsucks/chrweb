@@ -1,8 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-body{
+body, html{
 background-color: rgba(24,24,25,255);
 color: white;
-text-align: center;
 font-family: 'Oswald','Courier New', Courier, monospace;
+}
+
+.container {
+    text-align: center;
+  }
+
+h1{
+    font-size: 55px;
+}
+p{
+    font-size: 40px;
+}
+
+.social {
+    color:#fff;
+    font-size: 35px;
+    border-radius:50%;
+    transition:0.4s ease-in-out;
+    margin:0px 8px;
+    text-align:center;
+}
+.social:hover { 
+    cursor: pointer;
+    color:rgb(255, 50, 50);
 }
