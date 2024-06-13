@@ -89,10 +89,12 @@ p{
   a:active {
     color: gray;
   }
-  footer{
+  footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    text-align:center;
-    padding:10px;
+    text-align: center;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center; 
   }
